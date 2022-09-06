@@ -1,0 +1,2 @@
+plumbing_pub_sub
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/elgce/demo03_ws/devel -DCMAKE_INSTALL_PREFIX=/home/elgce/demo03_ws/install -G Unix Makefiles
