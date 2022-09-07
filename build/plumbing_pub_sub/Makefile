@@ -318,6 +318,21 @@ rosgraph_msgs_generate_messages_cpp/fast:
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/rule:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/rule
+.PHONY : plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/rule
+
+# Convenience name for target.
+demo03_pub_person: plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/rule
+
+.PHONY : demo03_pub_person
+
+# fast build rule for target.
+demo03_pub_person/fast:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/build
+.PHONY : demo03_pub_person/fast
+
+# Convenience name for target.
 plumbing_pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
 	cd /home/elgce/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : plumbing_pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
@@ -331,6 +346,21 @@ roscpp_generate_messages_nodejs: plumbing_pub_sub/CMakeFiles/roscpp_generate_mes
 roscpp_generate_messages_nodejs/fast:
 	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make plumbing_pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
+
+# Convenience name for target.
+plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule
+.PHONY : plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule
+
+# Convenience name for target.
+demo04_sub_person: plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule
+
+.PHONY : demo04_sub_person
+
+# fast build rule for target.
+demo04_sub_person/fast:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build
+.PHONY : demo04_sub_person/fast
 
 # Convenience name for target.
 plumbing_pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
@@ -656,6 +686,60 @@ src/demo02_sub.cpp.s:
 	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo02_sub.dir/build.make plumbing_pub_sub/CMakeFiles/demo02_sub.dir/src/demo02_sub.cpp.s
 .PHONY : src/demo02_sub.cpp.s
 
+src/demo03_pub_person.o: src/demo03_pub_person.cpp.o
+
+.PHONY : src/demo03_pub_person.o
+
+# target to build an object file
+src/demo03_pub_person.cpp.o:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/src/demo03_pub_person.cpp.o
+.PHONY : src/demo03_pub_person.cpp.o
+
+src/demo03_pub_person.i: src/demo03_pub_person.cpp.i
+
+.PHONY : src/demo03_pub_person.i
+
+# target to preprocess a source file
+src/demo03_pub_person.cpp.i:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/src/demo03_pub_person.cpp.i
+.PHONY : src/demo03_pub_person.cpp.i
+
+src/demo03_pub_person.s: src/demo03_pub_person.cpp.s
+
+.PHONY : src/demo03_pub_person.s
+
+# target to generate assembly for a file
+src/demo03_pub_person.cpp.s:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/src/demo03_pub_person.cpp.s
+.PHONY : src/demo03_pub_person.cpp.s
+
+src/demo04_sub_person.o: src/demo04_sub_person.cpp.o
+
+.PHONY : src/demo04_sub_person.o
+
+# target to build an object file
+src/demo04_sub_person.cpp.o:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o
+.PHONY : src/demo04_sub_person.cpp.o
+
+src/demo04_sub_person.i: src/demo04_sub_person.cpp.i
+
+.PHONY : src/demo04_sub_person.i
+
+# target to preprocess a source file
+src/demo04_sub_person.cpp.i:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.i
+.PHONY : src/demo04_sub_person.cpp.i
+
+src/demo04_sub_person.s: src/demo04_sub_person.cpp.s
+
+.PHONY : src/demo04_sub_person.s
+
+# target to generate assembly for a file
+src/demo04_sub_person.cpp.s:
+	cd /home/elgce/demo03_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.s
+.PHONY : src/demo04_sub_person.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -678,8 +762,10 @@ help:
 	@echo "... plumbing_pub_sub_generate_messages_eus"
 	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... demo03_pub_person"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... rebuild_cache"
+	@echo "... demo04_sub_person"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_nodejs"
@@ -704,6 +790,12 @@ help:
 	@echo "... src/demo02_sub.o"
 	@echo "... src/demo02_sub.i"
 	@echo "... src/demo02_sub.s"
+	@echo "... src/demo03_pub_person.o"
+	@echo "... src/demo03_pub_person.i"
+	@echo "... src/demo03_pub_person.s"
+	@echo "... src/demo04_sub_person.o"
+	@echo "... src/demo04_sub_person.i"
+	@echo "... src/demo04_sub_person.s"
 .PHONY : help
 
 

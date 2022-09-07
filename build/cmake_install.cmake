@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/elgce/demo03_ws/build/gtest/cmake_install.cmake")
   include("/home/elgce/demo03_ws/build/plumbing_pub_sub/cmake_install.cmake")
+  include("/home/elgce/demo03_ws/build/plumbing_server_client/cmake_install.cmake")
 
 endif()
 
