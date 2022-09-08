@@ -34,6 +34,10 @@ int main(int argc,char * argv[]){
     ai.request.num1 = atoi(argv[1]);
     ai.request.num2 = atoi(argv[2]);
     // 5.2 处理响应
+    //调用判断服务器状态的函数
+    //函数1
+    client.waitForExistence();
+    // ros::service::waitForService("AddInts");
     bool flag = client.call(ai);
     if(flag){
         ROS_INFO("响应成功！");
